@@ -1,3 +1,10 @@
 venv/
 .venv/
 __pycache__/
+
+# Caches e Bancos Locais
+.pytest_cache/
+__pycache__/
+*.db
+.env
+venv/

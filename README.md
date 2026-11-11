@@ -1,40 +1,30 @@
-# 🧠 Portfólio de Engenharia de IA & Machine Learning
-**Célio de Assis Araújo Filho** | Bacharelando em Sistemas de Informação (IF Sudeste MG)
+﻿# 🧠 Portfólio de Engenharia de IA, Machine Learning & Backend
 
-Este repositório centraliza meus projetos de pesquisa aplicada em **Machine Learning**, **Processamento de Linguagem Natural (NLP)**, **Engenharia de Dados** e **Arquitetura de APIs**.
-
----
-
-## 🚀 Projetos em Destaque
-
-### 1. ⚽ Predição de Valor de Mercado no Futebol com ML & Explicabilidade (Pesquisa / TCC)
-Pipeline completo de Machine Learning para estimação preditiva de valor de mercado de atletas do Campeonato Brasileiro Série A, combinando métricas avançadas de desempenho em campo com avaliação de mercado.
-* **Modelagem & Algoritmos:** Regressão supervisionada comparando **XGBoost**, **LightGBM** e **Ridge Regression**.
-* **Engenharia de Atributos:** Extração, limpeza e cruzamento de estatísticas táticas e de performance (FBref / Transfermarkt).
-* **Interpretabilidade (XAI):** Aplicação de **SHAP (SHapley Additive exPlanations)** para auditar o impacto individual de cada variável nas predições do modelo.
-* **Stack:** `Python`, `Scikit-learn`, `XGBoost`, `LightGBM`, `SHAP`, `Pandas`, `NumPy`.
-* 📂 *[Diretório / Repositório em organização — Código e notebooks disponíveis em breve]*
-
-### 2. 📝 Classificação de Textos Educacionais em Português (`desafio-caed-nlp`)
-Pipeline de Processamento de Linguagem Natural (NLP) voltado para a classificação automatizada de níveis educacionais a partir de textos em língua portuguesa.
-* **Pipeline de NLP:** Pré-processamento textual com remoção de stopwords, tokenização e vetorização via **TF-IDF**.
-* **Modelagem:** Treinamento, validação cruzada e avaliação de métricas com **Random Forest**.
-* **Stack:** `Python`, `NLTK`, `Scikit-learn`, `Pandas`.
-* 🔗 **Repositório:** [Acessar projeto no GitHub](./) *(adicione o link do seu repo aqui)*
-
-### 3. 📊 Brasileirão Analytics — Plataforma de Dados e Métricas Preditivas
-Aplicação analítica interativa para processamento de dados históricos e em tempo real de partidas, calculando médias móveis de desempenho, Expected Goals (xG) e tendências de tabela.
-* **Arquitetura:** Ingestão automatizada via APIs, persistência relacional em SQLite e visualização reativa.
-* **Stack:** `Python`, `Streamlit`, `SQLite`, `Pandas`.
-
-### 4. ⚡ API Resiliente de Recebimento de Postbacks (`Desafio TWR`)
-Serviço RESTful construído para alta confiabilidade no processamento de eventos de vendas e transações financeiras, uma base essencial para servir modelos e pipelines de dados em produção.
-* **Destaques de Engenharia:** Garantia estrita de **idempotência** transacional, validação rigorosa de schemas de entrada e deploy em nuvem.
-* **Stack:** `TypeScript`, `Node.js`, `Express`, `Zod`, `SQLite`, `Render`.
+Olá! Sou **Célio de Assis Araújo Filho**, estudante de Bacharelado em Sistemas de Informação no **IF Sudeste MG**. Este repositório centraliza projetos práticos voltados para **Engenharia de IA/ML (LLMs, NLP, Modelos Baseados em Árvores)**, **Engenharia de Dados** e **APIs Resilientes de Produção**.
 
 ---
 
-## 🛠️ Stack Tecnológica Principal
-* **Machine Learning & Data Science:** Python, Scikit-learn, XGBoost, LightGBM, SHAP, NLTK, Pandas, NumPy, Streamlit, Orange Data Mining.
-* **Engenharia de Software & Backend:** TypeScript/Node.js, Python, Java (Spring Boot), PHP (Laravel), REST APIs, Zod.
-* **Banco de Dados & Infra:** SQL (MySQL, SQLite), Git, Linux (WSL2/Ubuntu), Render.
+## 📂 Projetos em Destaque
+
+| Projeto | Domínio Técnico | Stack Principal | Destaques de Engenharia |
+| :--- | :--- | :--- | :--- |
+| **[genai-delivery-review-triage](./genai-delivery-review-triage)** | GenAI, LLMs & Guardrails | Python, Gemini API, Pydantic, SQLite, Pytest | Pipeline de triagem de avaliações de delivery com **Structured Outputs**, mascaramento de PII (**LGPD**), bloqueio de **Prompt Injection** e idempotência via SHA-256. |
+| **[desafio-caed-nlp](./desafio-caed-nlp)** | Processamento de Linguagem Natural (NLP) | Python, Scikit-learn, NLTK, TF-IDF, Pandas | Pipeline completo de pré-processamento textual em português e classificação supervisionada com Random Forest para predição de nível educacional. |
+| **[desafio-twr-postbacks](./desafio-twr-postbacks)** | Engenharia de Backend & Transações | TypeScript, Node.js, Express, SQLite, Zod | API RESTful receptora de webhooks financeiros com validação estrita de contrato e controle de **idempotência** contra duplicidade de eventos. |
+| **[brasileirao_analytics](./brasileirao_analytics)** | Data Science & Analytics | Python, Streamlit, SQLite, Pandas | Aplicação analítica interativa processando séries históricas, médias móveis, Expected Goals (xG) e indicadores de desempenho da Série A. |
+
+---
+
+## 🛠️ Stack Tecnológica Consolidada
+
+* **Inteligência Artificial & Machine Learning:** Python, Scikit-learn, XGBoost, LightGBM, SHAP (Explainable AI), NLTK, TF-IDF, Google GenAI SDK (LLMs & Structured Outputs).
+* **Desenvolvimento Backend & Arquitetura:** TypeScript, Node.js, Express, Java (Spring Boot, JUnit 5), Pydantic, Zod, REST APIs, Webhooks, Idempotência Transacional.
+* **Dados & Persistência:** SQL (MySQL, SQLite), Pandas, NumPy, Streamlit.
+* **Engenharia de Software & Processos:** Git, Linux (WSL2), Testes Automatizados (Pytest / JUnit), Modelagem BPMN 2.0 e UML.
+
+---
+
+## 📫 Contato
+
+* **LinkedIn:** [Célio Filho](https://www.linkedin.com/) *(atualize com seu link exato se desejar)*
+* **GitHub:** [github.com/Celio738](https://github.com/Celio738)
